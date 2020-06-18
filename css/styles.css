@@ -151,7 +151,7 @@
 /* below */
 .below{
   width: 100vw;
-  max-height: 100vh;
+  max-height: 90vh;
   z-index: 0;
 }
 
@@ -191,12 +191,46 @@ a.text-over-img {
   background-color: rgb(230, 36, 41);
   color: #fff;
   position: absolute;
-  margin-left: 10vw;
   margin-top: 60vh;
   font-size: 1;
 }
-
+#smoothScroll1 {
+  margin-left: 13vw;
+}
+#smoothScroll2 {
+  margin-left: 22vw;
+}
+#smoothScroll3 {
+  margin-left: 29vw;
+}
 /* --- */
 
-/* suits */
+/* Movies */
+#second {
+  max-height: 90vh;
+}
+.redtext {
+  color: #e62429;
+}
 
+.blacktext {
+  color: #151515;
+}
+
+.greytext {
+  color: #999;
+}
+
+.trailers {
+  width: 100%;
+  height: 40vh;
+  max-height: 250px;
+}
+
+/* suits */
+iframe {
+  height: 91vh;
+  width: 100vw;
+}
+
+/* end */

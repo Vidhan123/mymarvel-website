@@ -173,3 +173,23 @@ smokeeffect()
 
 // ---
 
+// SmoothScroll
+
+$('#smoothScroll1').click(function(){
+    $('html, body').animate({
+        scrollTop:
+        $("#first").offset().top
+    }, 1000);
+});
+$('#smoothScroll2').click(function(){
+    $('html, body').animate({
+        scrollTop:
+        $("#second").offset().top
+    }, 2000);
+});
+$('#smoothScroll3').click(function(){
+    $('html, body').animate({
+        scrollTop:
+        $("#third").offset().top
+    }, 3000);
+});
