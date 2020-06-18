@@ -146,6 +146,11 @@
   background: rgb(32, 32, 32);
   z-index: 2;
 }
+
+.active {
+  border: #fff 2px solid;
+  padding: 5px;
+}
 /* --- */
 
 /* below */
@@ -187,28 +192,38 @@ blockquote footer {
   margin-top: 5px;
 }
 
-a.text-over-img {
+button.text-over-img {
   background-color: rgb(230, 36, 41);
   color: #fff;
   position: absolute;
   margin-top: 60vh;
   font-size: 1;
 }
+
 #smoothScroll1 {
   margin-left: 13vw;
 }
+
 #smoothScroll2 {
   margin-left: 22vw;
 }
+
 #smoothScroll3 {
   margin-left: 29vw;
 }
+
 /* --- */
 
 /* Movies */
-#second {
-  max-height: 90vh;
+.heading {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding: 2px 0;
+  border-bottom: solid 2px rgb(230, 36, 41);
+  border-top: solid 2px rgb(230, 36, 41);
 }
+
 .redtext {
   color: #e62429;
 }
@@ -228,9 +243,27 @@ a.text-over-img {
 }
 
 /* suits */
+#second {
+  max-height: 90vh;
+}
+
 iframe {
   height: 91vh;
   width: 100vw;
 }
 
 /* end */
+
+/* footer */
+.bg-black {
+  background-color: rgb(20, 20, 20);
+}
+
+.footerLines {
+  background-color: #fff;
+}
+
+.footerText {
+  color: #fff;
+  text-align: center;
+}

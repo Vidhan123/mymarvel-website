@@ -28,7 +28,7 @@
 <div class="full-menu">
 	<div class="fullmenu-content">
 		<ul class="page-menu list-unstyled">
-			<li><a class="active" href="#">Iron Man</a></li>
+			<li><a class="active" href="ironMan.html">Iron Man</a></li>
 			<li><a href="#">Spider-Man</a></li>
 			<li><a href="#">Endgame</a></li>
 			<li><a href="#">Marvelites</a></li>
@@ -44,7 +44,7 @@
 </div>
 
 <!-- below -->
-<div class="container-fluid">
+<div class="container-fluid mb-2 mb-xl-4">
 	<div class="row">
 	<img src="img/ironManNavbar.jpg" alt="ironman" class="below">
 	<h1 class="text-over-img">IRON MAN</h4>
@@ -53,15 +53,17 @@
 			<h5 class="mb-0">“Heroes are made by the paths they choose, not the powers they are graced with.”</h5>
 			<footer class="blockquote-footer">Tony Stark</footer>
 		</blockquote>
-		<a class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll1" href="#">Movies</a>
-		<a class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll2" href="#">Suits</a>
-		<a class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll3" href="#">Iron Man is dead?</a>
+		<button class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll1">Movies</a>
+		<button class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll2">Suits</a>
+		<button class="btn btn-lg text-over-img d-none d-xl-block" id="smoothScroll3">Iron Man is dead?</a>
 	</div>
 </div>
 
 <!-- Movies -->
-<div class="container" id="first">
-	<div class="row"><br><br><br></div>
+<div class="container mb-0 mb-xl-2" id="first">
+	<div class="row justify-content-center mb-0 mb-xl-3">
+	<h3 class="heading">MOVIES</h3>
+	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-sm-8 col-md-6 col-lg-4">
 			<div class="card mb-3">
@@ -84,7 +86,7 @@
 			</div>
 		</div>
 		<div class="col-12 col-sm-8 col-md-6 col-lg-4">
-			<div class="card mb-3">
+			<div class="card mb-">
 				<iframe class="trailers" src="https://www.youtube.com/embed/Ke1Y3P9D0Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div class="card-body">
 					<h5 class="card-title redtext">Iron Man 3</h5>
@@ -97,15 +99,18 @@
 </div>
 
 <!-- suit -->
-<div class="container mb-5" id="second">
-	<div class="row"><br><br><br></div>
+<div class="container mb-0 mb-xl-5" id="second">
+	<div class="row justify-content-center">
+		<h3 class="heading">SUITS</h3>
+	</div>
+	<div class="row d-none d-xl-block"><br></div>
 	<div class="row">
 		<iframe src="Iron Man Suits/ironManSuits.html" frameborder="0"></iframe>
 	</div>
 </div>
 
 <!-- end -->
-<div class="container mb-3" id="third">
+<div class="container mb-0 mb-xl-5" id="third">
 	<div class="row"><br><br><br></div>
 	<div class="row">
 		<div class="card mb-3 border-danger" style="max-width: 100%;">
@@ -135,7 +140,32 @@
 </div>
 
 <!-- footer -->
+<div class="container-fluid bg-black">
+	<div class="row justify-content-center align-items-center">
+		<div class="col-3">
+			<hr class="footerLines">
+		</div>
+		<div class="col-3">
+			<img class="img-fluid footerImg" src="img/logo.png" alt="logo">
+		</div>
+		<div class="col-3">
+			<hr class="footerLines">
+		</div>
+	</div>
 
+	<div class="row justify-content-center align-items-center">
+		<div class="col-2 d-none d-md-block">
+			<hr class="footerLines">
+		</div>
+		<div class="col-12 col-md-5">
+			<h6 class="footerText">No Copyright Infringement Intended</h6>
+			<h6 class="footerText">Vidhan Shah &copy; 2020 | myMarvel</h6>
+		</div>
+		<div class="col-2 d-none d-md-block">
+			<hr class="footerLines">
+		</div>
+	</div>
+</div>
 
 </body>
 <!-- general scripts -->
