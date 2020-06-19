@@ -242,14 +242,13 @@ button.text-over-img {
   max-height: 250px;
 }
 
-/* suits */
+/* suits  */
 #second {
   max-height: 90vh;
 }
 
 iframe {
-  height: 91vh;
-  width: 100vw;
+  max-height: 90vh;
 }
 
 /* end */

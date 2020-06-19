@@ -87,7 +87,7 @@ function smokeeffect () {
         transitionBackground = transitionLayer.children(),
         modalWindow = $('.full-menu');
 
-    var frameProportion = 1.78, //png frame aspect ratio
+    var frameProportion = 3.56, //png frame aspect ratio
         frames = 25, //number of png frames
         resize = false;
 
@@ -111,7 +111,7 @@ function smokeeffect () {
     });
 
     //close modal window
-    modalWindow.on('click', '.modal-close', function(event){
+    modalWindow.on('click', '.modal-close,.selfLink', function(event){
         event.preventDefault();
         transitionLayer.addClass('closing');
         modalWindow.removeClass('visible');
