@@ -5,10 +5,24 @@
   <title>Iron Man Suits</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
 
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script>
+
+	<script src="/js/jquery-2.1.4.min.js"></script>
+	<script  src="./script.js"></script>
+	
+	<!-- loader -->
+	<script>
+		$(window).on("load",function(){
+			$(".logo-loader-wrapper").fadeOut("slow");
+		});
+	</script>
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<body>
 
 	<main>
 		<div id="slider">
@@ -30,10 +44,10 @@
 				</div>
 			</div>
 
-			<img src="/img/ironManMarkLXLII.png">
-			<img src="/img/ironManMarkXLIV.png">
-			<img src="/img/ironManMarkL.png">
-			<img src="/img/ironManMarkLXXXV.png">
+			<img src="/img/ironManMarkLXLII.jpg">
+			<img src="/img/ironManMarkXLIV.jpg">
+			<img src="/img/ironManMarkL.jpg">
+			<img src="/img/ironManMarkLXXXV.jpg">
 
 			<div id="pagination">
 				<button class="active" data-slide="0"></button>
@@ -55,18 +69,5 @@
 	</div>
 </div>
 	
-</body>
-<!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script>
-<script  src="./script.js"></script>
-<script src="/js/jquery-2.1.4.min.js"></script>
-<!-- loader -->
-<script>
-	$(window).on("load",function(){
-		$(".logo-loader-wrapper").fadeOut("slow");
-	});
-</script>
 </body>
 </html>

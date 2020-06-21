@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>myMarvel | Iron Man</title>
-	<link rel="icon" href="img/title.png">
+	<link rel="icon" href="img/title.jpg">
 	
 	<!-- general -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,6 +12,19 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
 	<!-- custom -->
 	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- general scripts -->
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	
+	<!-- loader -->
+	<script>
+		$(window).on("load",function(){
+			$(".logo-loader-wrapper").fadeOut("slow");
+		});
+	</script>
 
 </head>
 <body>
@@ -180,17 +193,8 @@
 </div>
 
 </body>
-<!-- general scripts -->
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-2.1.4.min.js"></script>
+
 <!-- custom scripts -->
 <script src="js/scripts.js"></script>
-<!-- loader -->
-<script>
-	$(window).on("load",function(){
-		$(".logo-loader-wrapper").fadeOut("slow");
-	});
-</script>
+
 </html>
