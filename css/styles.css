@@ -156,7 +156,8 @@
 /* below */
 .below{
   width: 100vw;
-  max-height: 90vh;
+  height: 90vh;
+  max-height: 90vw;
   z-index: 0;
 }
 
@@ -251,6 +252,15 @@ iframe {
   max-height: 90vh;
 }
 
+.reverseHeading {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  padding: 2px 0;
+  color: rgb(230, 36, 41);
+  border-bottom: solid 2px rgb(32, 32, 32);
+  border-top: solid 2px rgb(32, 32, 32);
+}
 /* end */
 
 /* footer */

@@ -21,8 +21,16 @@
 
 	<!-- loader -->
 	<script>
+		$('html, body').css({
+  		'overflow': 'hidden',
+  		'height': '100%'
+			});
 		$(window).on("load",function(){
 			$(".logo-loader-wrapper").fadeOut("slow");
+			$('html, body').css({
+  		'height': 'auto'
+			});
+			$('html, body').css({'overflow':''});
 		});
 	</script>
 	
@@ -31,7 +39,7 @@
 
 <!-- Navbar	 -->
 <nav class="navbar sticky-top navbar-dark bg-grey">
-		<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="100"></a>
+		<a class="navbar-brand" href="#" style="cursor: default;"><img src="img/logo.png" alt="logo" width="100"></a>
 		<button class="navbar-toggler nav-icon" type="button">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -99,7 +107,7 @@
 			</div>
 		</div>
 		<div class="col-12 col-sm-8 col-md-6 col-lg-4">
-			<div class="card mb-">
+			<div class="card mb-0">
 				<iframe class="trailers" src="https://www.youtube.com/embed/hA6hldpSTF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div class="card-body">
 					<h5 class="card-title redtext">Avengers: Endgame</h5>
@@ -113,8 +121,11 @@
 
 <!-- suit -->
 <div class="container mb-2 mb-xl-5" id="second">
-	<div class="row justify-content-center mb-0 mb-xl-3">
+	<div class="row justify-content-center mb-1">
 		<h3 class="heading">NEW CHARACTERS</h3>
+	</div>
+	<div class="row justify-content-center mb-0 mx-2 mb-xl-1">
+		<h4 class="reverseHeading">This may not work properly on iOS devices.</h4>
 	</div>
 	<div class="row embed-responsive embed-responsive-1by1 mx-0">
 		<iframe src="Pagination/newCharacters.html" class="embed-responsive-item"></iframe>
@@ -122,7 +133,7 @@
 </div>
 
 <!-- extra spacing -->
-<div class="d-block d-xl-none"><br><br><br></div>
+<div class="d-block d-xl-none"><br></div>
 
 <!-- end -->
 <div class="container mb-0 mb-xl-5" id="third">
