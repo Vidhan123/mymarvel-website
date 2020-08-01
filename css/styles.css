@@ -155,7 +155,7 @@
 
 /* below */
 .below{
-  width: 100vw;
+  width: 100%;
   height: 90vh;
   max-height: 90vw;
   z-index: 0;

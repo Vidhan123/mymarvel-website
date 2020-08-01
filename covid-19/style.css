@@ -1,0 +1,59 @@
+.table {
+  border-collapse: separate;
+  border-spacing: .3rem;
+}
+
+.table th,.table td {
+  color: #6c757d;
+  border-radius: .3rem;
+}
+
+.bg-gray {
+  background-color: #f6f6f7;
+}
+
+th {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#mainHead {
+  font-size: 1.2rem;
+  padding: 2.2rem 0;
+}
+
+.layered {
+  text-align: center;
+}
+
+.layered .confirmed {
+  color: #ff073a;
+}
+
+.layered .deceased {
+  color: #6c757d;
+}
+
+.layered .recovered {
+  color: #28a745;
+}
+
+#NC-label, #ND-label, #NR-label {
+  opacity: .6;
+}
+
+.card {
+  padding: 20px 0;
+}
+
+.bg-confirm {
+  background: rgba(255, 7, 58, 0.125);
+}
+
+.bg-deceased {
+  background: rgba(108, 117, 125, 0.125);
+}
+
+.bg-recovered {
+  background: rgba(40, 167, 69, 0.125);
+}

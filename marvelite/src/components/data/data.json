@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "question":"Which character listed below was NOT turned to dust by Thanos at the end of Avengers: Infinity War?",
+    "image":"https://i.redd.it/e3l28znmmrq21.jpg",
+    "options": [
+      "T'Challa",
+      "Drax",
+      "Nick Fury",
+      "Steve Rogers"
+    ],
+    "answer": "Steve Rogers"
+  },
+  {
+    "id":2,
+    "question":"Who was the keeper of the Soul Stone at Vormir?",
+    "image":"https://i.redd.it/llcym7nqx5d11.png",
+    "options": [
+      "The Destroyer",
+      "Hela",
+      "Red Skull",
+      "Stan Lee"
+    ],
+    "answer": "Red Skull"
+  },
+  {
+    "id":3,
+    "question":"Where were Hawkeye and Ant-Man during the events of Avengers: Infinity War?",
+    "image":"https://lh3.googleusercontent.com/proxy/1Q67QAyTaeN_bWgmXucLN1nLnUsHqEVhX3ciCkv9ENprfzAGUBveSjJb6v_6AmqEbDWWqUOJm6hXNBkrKNsDDXOhqhPdCsYL-ulgnza_iPxUi-97vsae94PWNKmRHeGesHyRbEASZqcJny736qQunwnAGkKYS_h7oNU1Yt__G68q0w",
+    "options": [
+      "They were under house arrest",
+      "They were watching Game of Thrones",
+      "They were there, you must have just missed them",
+      "They had been exiled to Sakaar"
+    ],
+    "answer": "They were under house arrest"
+  },
+  {
+    "id":4,
+    "question":"Who manufactured the Infinity Gauntlet which Thanos uses to harness the power of the Infinity Stones?",
+    "image":"https://c4.wallpaperflare.com/wallpaper/587/539/761/thanos-infinity-gauntlet-infinity-stones-avengers-infinity-war-avengers-endgame-hd-wallpaper-preview.jpg",
+    "options": [
+      "Tyrion Lannister",
+      "Peter Dinklage",
+      "Eitri",
+      "The Collector"
+    ],
+    "answer": "Eitri"
+  },
+  {
+    "id":5,
+    "question":"Which character said 'We're in the endgame now' In Avengers: Infinity War shortly before Thanos completed his plan?",
+    "image":"https://culturalhater.com/wp-content/uploads/2019/04/avengers-endgame-2019_1.jpg",
+    "options": [
+      "Steve Rogers",
+      "Tony Stark",
+      "Doctor Strange",
+      "Nick Fury"
+    ],
+    "answer": "Doctor Strange"
+  }
+]

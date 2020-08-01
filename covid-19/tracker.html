@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>myMarvel | COVID-19 Tracker</title>
+	<link rel="icon" href="/img/title.jpg">
+
+  <!-- css -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <link href=https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/css/dataTables.bootstrap4.min.css rel=stylesheet>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- nav -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">COVID-19</li>
+      <li class="breadcrumb-logo ml-auto">
+        <img src="/img/logo.png" height=30 alt="logo">
+      </li>
+    </ol>
+  </nav>
+
+  <!-- summary -->
+  <div class="container-fluid mt-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-4 col-lg-3 layered mb-3 mb-md-0">
+        <div class="card bg-confirm">
+          <h5 class="confirmed">Confirmed</h5>
+          <h6 id="NC-label" class="confirmed"></h6>
+          <h4 id="TC-label" class="confirmed"></h4>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 layered mb-3 mb-md-0">
+        <div class="card bg-deceased">
+          <h5 class="deceased">Deceased</h5>   
+          <h6 id="ND-label" class="deceased"></h6>
+          <h4 id="TD-label" class="deceased"></h4>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 layered">
+        <div class="card bg-recovered">
+          <h5 class="recovered">Recovered</h5>
+          <h6 id="NR-label" class="recovered"></h6>
+          <h4 id="TR-label" class="recovered"></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- table -->
+  <div class="container-fluid mt-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-10 col-xl-9">
+        <div class="table-responsive">
+          <table class="table table-hover table-striped" id="mainTable">
+            <thead>
+              <tr>
+                <th rowspan="2" id="mainHead" class="bg-gray">Countries and territories</th>
+                <th colspan="2" class="bg-gray">Confirmed</th>
+                <th colspan="2" class="bg-gray">Deceased</th>
+                <th colspan="2" class="bg-gray">Recovered</th>
+              </tr>
+              <tr>
+                <th class="table-danger">Total Cases</th>
+                <th class="table-danger">New Cases</th>
+                <th class="table-secondary">Total Deaths</th>
+                <th class="table-secondary">New Deaths</th>
+                <th class="table-success">Total Recoveries</th>
+                <th class="table-success">New Recoveries</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- data -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
